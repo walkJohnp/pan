@@ -11,10 +11,12 @@ public class Colcount{
 	private String id;
 	//所属学院(外键)
 	private String colId;
-	//此账号所在的根目录
-	private String folId;
+	//学院账号所在的根目录
+	private String folder;
 	private String username;
 	private String password;
+	
+	
 	public String getId() {
 		return id;
 	}
@@ -27,11 +29,12 @@ public class Colcount{
 	public void setColId(String colId) {
 		this.colId = colId;
 	}
-	public String getFolId() {
-		return folId;
+	
+	public String getFolder() {
+		return folder;
 	}
-	public void setFolId(String folId) {
-		this.folId = folId;
+	public void setFolder(String folder) {
+		this.folder = folder;
 	}
 	public String getUsername() {
 		return username;
